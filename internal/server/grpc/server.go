@@ -1,9 +1,10 @@
 package grpc
 
 import (
+	pb "github.com/znyh/proto/logwriter"
+
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/net/rpc/warden"
-	pb "github.com/znyh/proto/logwriter"
 )
 
 // New new a grpc server.

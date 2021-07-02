@@ -15,7 +15,6 @@ var Provider = wire.NewSet(New, NewDB, NewRedis, NewKafkaConsumer)
 type Dao interface {
 	Close()
 	Ping(ctx context.Context) (err error)
-	RedisSUBSCRIBE(ctx context.Context, topic string, cb func(data []byte)) (err error)
 	SubKafka() (err error)
 }
 

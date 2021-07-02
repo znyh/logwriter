@@ -357,16 +357,8 @@ github.com/xtaci/lossyconn v0.0.0-20190602105132-8df528c0c9ae/go.mod h1:gXtu8J62
 github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d/go.mod h1:rHwXgn7JulP+udvsHwJoVG1YGAP6VLg4y9I5dyZdqmA=
 github.com/yuin/goldmark v1.1.27/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
 github.com/yuin/goldmark v1.2.1/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
-github.com/znyh/middle-end v0.0.4 h1:eAIRuKTXV7WS6BTXqqYhkmJu14Fdc05icNdX8NlKL0k=
 github.com/znyh/middle-end/library v0.0.0-20210702182957-186106d156ee h1:AT+2pYyd8K/ZIoKRji5bLmvllMQzPnK59QmDXC2Tk2M=
 github.com/znyh/middle-end/library v0.0.0-20210702182957-186106d156ee/go.mod h1:9r6NsMK1I0THrqYsHj46ElbTiv5JTTAOa1c2WxTyb+Y=
-github.com/znyh/middle-end/library v0.0.0-20210702194415-4de542bd4122 h1:VP4Au2mQ0j4yyTtUa9InQgDsvS1pczdT8lHOKIBOf58=
-github.com/znyh/middle-end/library v0.0.0-20210702194415-4de542bd4122/go.mod h1:9r6NsMK1I0THrqYsHj46ElbTiv5JTTAOa1c2WxTyb+Y=
-github.com/znyh/middle-end/proto v0.0.0-20210702174042-ebae9a688713 h1:qBvwCo7RQz4U2Lv3i9E2jftiSvIatPJJio7KFeVbqZA=
-github.com/znyh/middle-end/proto v0.0.0-20210702174556-5176aefdf4f6 h1:w9FDP9/O1miPISQV0NA4w/fy0DFEtiIhCnKeijJrjds=
-github.com/znyh/middle-end/proto v0.0.0-20210702174556-5176aefdf4f6/go.mod h1:9iUuICKZ1n1LLnKla545F0slbnb0cktms/3Xd7PyNxg=
-github.com/znyh/middle-end/proto v0.0.0-20210702182957-186106d156ee h1:9i4LSmf655gA83gS0IxkffpZnC7WchxX8tnicAY8S+4=
-github.com/znyh/middle-end/proto v0.0.0-20210702182957-186106d156ee/go.mod h1:9iUuICKZ1n1LLnKla545F0slbnb0cktms/3Xd7PyNxg=
 github.com/znyh/proto v0.0.0-20210702201539-5c53963c8854 h1:CEG+b3WHKV7V3dnwVSDXMaCSnhhFNSqAmZutP7osfr0=
 github.com/znyh/proto v0.0.0-20210702201539-5c53963c8854/go.mod h1:tbtOWwBbm3XqdLLyt2I4tzsrGSI5cuQsdb2oYeU39G0=
 go.etcd.io/bbolt v1.3.4/go.mod h1:G5EMThwa9y8QZGBClrRx5EY+Yw9kAhnjy3bSjsnlVTQ=

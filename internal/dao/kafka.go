@@ -5,7 +5,6 @@ import (
 	"github.com/go-kratos/kratos/pkg/log"
 	"github.com/znyh/logwriter/internal/model"
 	"github.com/znyh/middle-end/library/pkg/kafka"
-	logserver "github.com/znyh/proto/logserver"
 )
 
 func NewKafkaConsumer() (consumer *kafka.Consumer, cf func(), err error) {
@@ -27,7 +26,7 @@ func NewKafkaConsumer() (consumer *kafka.Consumer, cf func(), err error) {
 func (d *dao) SubKafka() (err error) {
 
 	err = d.consumer.Consume(map[string]kafka.Handler{
-		logserver.LogServerTopic: kafka.Handler{
+		model.LogServerTopic: kafka.Handler{
 			Run: func(msg []byte, args ...interface{}) {
 				log.Info("=====>data:%+v", string(msg))
 			},

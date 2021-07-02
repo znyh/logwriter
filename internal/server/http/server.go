@@ -30,7 +30,7 @@ func New(s pb.LogwriterServer) (engine *bm.Engine, err error) {
 
 func initRouter(e *bm.Engine) {
 	e.Ping(ping)
-	g := e.Group("/log-writer")
+	g := e.Group("/logwriter")
 	{
 		g.GET("/start", howToStart)
 	}
