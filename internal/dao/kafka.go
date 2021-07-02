@@ -4,7 +4,7 @@ import (
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/log"
 	"github.com/znyh/logwriter/internal/model"
-	"github.com/znyh/middle-end/library/pkg/kafka"
+	"github.com/znyh/library/pkg/kafka"
 )
 
 func NewKafkaConsumer() (consumer *kafka.Consumer, cf func(), err error) {
