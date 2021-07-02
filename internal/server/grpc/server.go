@@ -3,7 +3,7 @@ package grpc
 import (
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/net/rpc/warden"
-	pb "github.com/znyh/middle-end/proto/logwriter"
+	pb "github.com/znyh/proto/logwriter"
 )
 
 // New new a grpc server.

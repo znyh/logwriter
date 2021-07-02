@@ -3,9 +3,9 @@ package dao
 import (
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/log"
+	"github.com/znyh/logwriter/internal/model"
 	"github.com/znyh/middle-end/library/pkg/kafka"
-	"github.com/znyh/middle-end/logwriter/internal/model"
-	logserver "github.com/znyh/middle-end/proto/logserver"
+	logserver "github.com/znyh/proto/logserver"
 )
 
 func NewKafkaConsumer() (consumer *kafka.Consumer, cf func(), err error) {

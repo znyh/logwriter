@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/log"
-	"github.com/znyh/middle-end/logwriter/internal/di"
+	"github.com/znyh/logwriter/internal/di"
 )
 
 func main() {

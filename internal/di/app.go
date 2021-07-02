@@ -4,11 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/znyh/middle-end/logwriter/internal/service"
-
 	"github.com/go-kratos/kratos/pkg/log"
 	bm "github.com/go-kratos/kratos/pkg/net/http/blademaster"
 	"github.com/go-kratos/kratos/pkg/net/rpc/warden"
+	"github.com/znyh/logwriter/internal/service"
 )
 
 //go:generate kratos tool wire

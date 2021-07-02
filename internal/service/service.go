@@ -6,8 +6,8 @@ import (
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/google/wire"
-	"github.com/znyh/middle-end/logwriter/internal/dao"
-	pb "github.com/znyh/middle-end/proto/logwriter"
+	"github.com/znyh/logwriter/internal/dao"
+	pb "github.com/znyh/proto/logwriter"
 )
 
 var Provider = wire.NewSet(New, wire.Bind(new(pb.LogwriterServer), new(*Service)))

@@ -6,7 +6,7 @@ import (
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/log"
 	bm "github.com/go-kratos/kratos/pkg/net/http/blademaster"
-	pb "github.com/znyh/middle-end/proto/logwriter"
+	pb "github.com/znyh/proto/logwriter"
 )
 
 var svc pb.LogwriterServer
